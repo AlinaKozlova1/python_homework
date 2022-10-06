@@ -23,3 +23,4 @@ def shuffle_list():
     print("\033[33m{}".format(f"Random list --> {rand_list}"))
 
 shuffle_list()  
+#time.sleep(rand_i * 0.001)

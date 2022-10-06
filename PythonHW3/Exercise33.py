@@ -24,3 +24,6 @@ def min_max_difference(arr):
 min_max_difference(array)
 
 # print(round(23.19%1, 2))
+#print(f'{spisok} => {result:.2f}')
+#array_1 = [round(random.uniform(0.0, 11.0), 2) for i in range(n)]
+
