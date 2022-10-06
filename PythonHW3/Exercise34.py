@@ -17,7 +17,8 @@ def make_binary(num, binary_list):
             binary_list.append(num % 2)
             binary_list.reverse()
             binary_num = "".join(map(str, binary_list))
-            print("\033[42m {}".format(binary_num))
+            print("\033[32m {}".format(binary_num))
+            print("\033[37m{}".format(" "))
         else:
             binary_list.append(num % 2)
             num //= 2
