@@ -5,7 +5,7 @@ import math
 
 keep_going = True
 while keep_going:
-    number = int(input("How many digits after 'dot' do you want? - "))
+    number = int(input("How many numbers behind decimal point do you want? - "))
     if 1 <= number <=10:
         print("\033[36m{}".format(round(math.pi, number)))
         print("\033[37m{}".format(" "))
