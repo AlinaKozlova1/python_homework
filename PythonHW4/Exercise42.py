@@ -2,7 +2,6 @@
 # Напишите программу, которая составит список простых множителей числа N.
 
 def make_prime_num(num):
-    #initial_num = num
     i = 2
     prime_num_list = []
     while num != 1:
