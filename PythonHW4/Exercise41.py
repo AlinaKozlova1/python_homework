@@ -3,6 +3,8 @@
 # - при d = 0.001, π = 3.141    10^{-1} ≤ d ≤10^{-10}
 import math
 
+
+
 keep_going = True
 while keep_going:
     number = int(input("How many numbers behind decimal point do you want? - "))
@@ -14,5 +16,6 @@ while keep_going:
         print("\033[37m{}".format(" "))
     answer = input("Enter 'stop' to stop or press any key to continue: ")
     keep_going = answer!="stop"
+
 
 

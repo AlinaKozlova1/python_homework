@@ -21,4 +21,3 @@ while keep_going:
     answer = input("Enter 'stop' to stop or press any key to continue: ")
     keep_going = answer != "stop"
 
-
