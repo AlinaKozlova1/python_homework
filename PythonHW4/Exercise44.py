@@ -5,8 +5,7 @@
 
 # - k=2 => 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0
 # -  k=4 => 2*x^4 + 4*x^3 + 5x^2  - 3x + 3 = 0
-# 5. Даны два файла, в каждом из которых находится запись многочлена.
-#  Задача - сформировать файл, содержащий сумму многочленов.
+
 
 from random import randint
 
@@ -36,8 +35,3 @@ with open("polinominal_file.txt", "a") as data:
      data.write("\n" + make_polinominal(power))
 
 
-# aaa = [2,3,4,5]
-# aaa = [str(i) for i in aaa]
-# for i in range(len(aaa)):
-#     aaa[i] = aaa[i] + "x"
-# print(aaa)

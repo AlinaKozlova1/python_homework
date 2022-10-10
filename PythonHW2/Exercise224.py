@@ -18,6 +18,7 @@ def open_index():
     index_list = [int(i) for i in path]
     print(f"indexes --> {index_list}")
     return index_list
+   
 
 def count_prodact():
     array = fill_list()
