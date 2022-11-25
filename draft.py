@@ -13,3 +13,4 @@ with open ('new_image.jpg', 'wb') as f:
 # out.write(img.content)
 # out.close()
 # print(type(img))
+# bla bla bla
